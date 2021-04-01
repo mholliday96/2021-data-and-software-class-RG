@@ -45,7 +45,7 @@ def plot():
     plot_data(processed_temperature_data)
     convert_data("data/110-tavg-12-12-1950-2020.csv")
 
-
+print(__name__)
+print(__file__)
 if __name__ == "__main__":
     plot()
-print(__name__)
